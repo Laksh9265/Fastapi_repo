@@ -3,4 +3,4 @@ import os
 
 load_dotenv()
 
-database=os.environ.get("database")
+db_url=os.environ.get("db_url")
